@@ -1,0 +1,63 @@
+body {
+    font-family: 'Roboto', sans-serif; /* Fallback font */
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    margin: 0;
+    background: url('pexels-jplenio-1118873.jpg') center/cover no-repeat;
+    color: #fff;
+    font-family: 'Comic Sans MS', cursive; /* Cute font */
+}
+
+.container {
+    text-align: center;
+    background: url('Featured-Image-Live-Weather-Wallpapers-Android.jpg') center/cover no-repeat;
+    padding: 30px;
+    border-radius: 15px;
+    box-shadow: 0 0 20px rgba(0,0,0,0.1);
+    width: 350px;
+    transition: transform 0.3s ease;
+    font-family: 'Comic Sans MS', cursive; /* Override font for container */
+}
+
+.container:hover {
+    transform: scale(1.05);
+}
+
+h1 {
+    margin-bottom: 20px;
+    color: #007BFF;
+}
+
+#city {
+    padding: 15px;
+    width: 80%;
+    margin-bottom: 20px;
+    border: 1px solid #ddd;
+    border-radius: 25px;
+    text-align: center;
+    font-size: 16px;
+}
+
+button {
+    padding: 15px 30px;
+    background-image: linear-gradient(to right, #007BFF, violet); /* Linear gradient background */
+    color: white;
+    border: none;
+    border-radius: 25px;
+    cursor: pointer;
+    font-size: 16px;
+    transition: background 0.3s ease;
+    font-family: 'Comic Sans MS', cursive; /* Override font for button */
+}
+
+button:hover {
+    background: #004E9A; /* Hovered button background */
+}
+
+#weather-info {
+    margin-top: 30px;
+    font-size: 18px;
+    line-height: 1.6;
+}
